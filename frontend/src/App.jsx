@@ -27,7 +27,7 @@ import SearchWithAi from './pages/SearchWithAi'
 import getAllReviews from './customHooks/getAllReviews'
 
 //export const serverUrl = "http://localhost:8000"
-const serverUrl = import.meta.env.VITE_API_URL;
+export const serverUrl = import.meta.env.VITE_API_URL;
 function App() {
   
   let {userData} = useSelector(state=>state.user)
